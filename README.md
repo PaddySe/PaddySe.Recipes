@@ -6,6 +6,9 @@ There is nothing special here. It is just a way for me to spend some time doing 
 
 I also use it as a way to learn and test new things.
 
+If you want a mycht better and good-looking recipe site, try [Mealie](https://mealie.io/)!
+
+
 ## Getting Started
 
 ### Prerequisites
