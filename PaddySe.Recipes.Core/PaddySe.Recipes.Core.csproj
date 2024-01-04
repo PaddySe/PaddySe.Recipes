@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PaddySe.Recipes.Data\PaddySe.Recipes.Data.csproj" />
+    <ProjectReference Include="..\PaddySe.Recipes.DataAccess\PaddySe.Recipes.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

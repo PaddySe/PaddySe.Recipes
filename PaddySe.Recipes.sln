@@ -3,12 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaddySe.Recipes.Web", "PaddySe.Recipes.Web\PaddySe.Recipes.Web.csproj", "{96A64B2E-D4B4-4D3D-9D50-B483B5D75FD3}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaddySe.Recipes.Data", "PaddySe.Recipes.Data\PaddySe.Recipes.Data.csproj", "{4313F5CC-A16A-49FC-B647-0AE0202CF489}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaddySe.Recipes.Domain", "PaddySe.Recipes.Domain\PaddySe.Recipes.Domain.csproj", "{65B6883D-BC0F-4EF8-AF08-07561BA0EF20}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5DD69756-8DE3-49FE-949C-00D339802771}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
@@ -17,7 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaddySe.Recipes.Tests", "PaddySe.Recipes.Tests\PaddySe.Recipes.Tests.csproj", "{5C78494A-1397-4E1B-8395-0D2760F7C54D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaddySe.Recipes.Web", "PaddySe.Recipes.Web\PaddySe.Recipes.Web.csproj", "{96A64B2E-D4B4-4D3D-9D50-B483B5D75FD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaddySe.Recipes.DataAccess", "PaddySe.Recipes.DataAccess\PaddySe.Recipes.DataAccess.csproj", "{4313F5CC-A16A-49FC-B647-0AE0202CF489}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaddySe.Recipes.Tests", "PaddySe.Recipes.Tests\PaddySe.Recipes.Tests.csproj", "{5C78494A-1397-4E1B-8395-0D2760F7C54D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaddySe.Recipes.Core", "PaddySe.Recipes.Core\PaddySe.Recipes.Core.csproj", "{24A4C79F-AD27-4ED4-81BF-52E88E398CC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaddySe.Recipes.Service", "PaddySe.Recipes.Service\PaddySe.Recipes.Service.csproj", "{F80673AC-F5E4-437C-A9AD-3CD107003C82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,14 +35,18 @@ Global
 		{4313F5CC-A16A-49FC-B647-0AE0202CF489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4313F5CC-A16A-49FC-B647-0AE0202CF489}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4313F5CC-A16A-49FC-B647-0AE0202CF489}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65B6883D-BC0F-4EF8-AF08-07561BA0EF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65B6883D-BC0F-4EF8-AF08-07561BA0EF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65B6883D-BC0F-4EF8-AF08-07561BA0EF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65B6883D-BC0F-4EF8-AF08-07561BA0EF20}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5C78494A-1397-4E1B-8395-0D2760F7C54D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C78494A-1397-4E1B-8395-0D2760F7C54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C78494A-1397-4E1B-8395-0D2760F7C54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C78494A-1397-4E1B-8395-0D2760F7C54D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A4C79F-AD27-4ED4-81BF-52E88E398CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A4C79F-AD27-4ED4-81BF-52E88E398CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A4C79F-AD27-4ED4-81BF-52E88E398CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A4C79F-AD27-4ED4-81BF-52E88E398CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80673AC-F5E4-437C-A9AD-3CD107003C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80673AC-F5E4-437C-A9AD-3CD107003C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80673AC-F5E4-437C-A9AD-3CD107003C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80673AC-F5E4-437C-A9AD-3CD107003C82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
