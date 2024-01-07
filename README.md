@@ -32,7 +32,8 @@ Update the database using the following command:
 `dotnet ef database update -p PaddySe.Recipes.DataAccess -c RecipesDbContext -s PaddySe.Recipes.Web`
 dotnet ef database update -s PaddySe.Recipes.Web
 
-## TODO
+## Ideas to (possibly) implement
 
-* [Implement e-mail confirmations](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/accconfirm?view=aspnetcore-8.0&tabs=visual-studio)
+- [ ] [Implement e-mail confirmations](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/accconfirm?view=aspnetcore-8.0&tabs=visual-studio)
+- [ ] [Implement Recipe schema](https://schema.org/Recipe)
 

@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LICENSE = LICENSE
 		nuget.config = nuget.config
 		README.md = README.md
+		RECIPE.md = RECIPE.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaddySe.Recipes.Web", "PaddySe.Recipes.Web\PaddySe.Recipes.Web.csproj", "{96A64B2E-D4B4-4D3D-9D50-B483B5D75FD3}"
